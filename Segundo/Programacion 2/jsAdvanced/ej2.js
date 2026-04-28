@@ -1,77 +1,17 @@
 const familiaDirecta = ["Carlos", "María", "José", "Ana", "Luis", "Laura"];
-const familiaLejana = [
-  "Héctor",
-  "Graciela",
-  "Ricardo",
-  "Carmen",
-  "Raúl",
-  "Silvia",
-  "Hugo",
-];
+const familiaLejana = ["Héctor", "Graciela", "Ricardo", "Carmen", "Raúl", "Silvia", "Hugo"];
 const familiaPolitica = ["Roberto", "Susana", "Marcelo", "Mónica", "Javier"];
 
-const amigosInfancia = [
-  "Facundo",
-  "Milagros",
-  "Gonzalo",
-  "Camila",
-  "Joaquín",
-  "Micaela",
-];
-const companerosTrabajo = [
-  "Martín",
-  "Sofía",
-  "Federico",
-  "Julia",
-  "Maximiliano",
-  "Florencia",
-];
-const companerosUniversidad = [
-  "Tomás",
-  "Agustina",
-  "Santiago",
-  "Valentina",
-  "Lucas",
-  "Martina",
-];
-const clubDeportivo = [
-  "Diego",
-  "Ariel",
-  "Enzo",
-  "Julián",
-  "Franco",
-  "Emiliano",
-  "Lisandro",
-];
+const amigosInfancia = ["Facundo", "Milagros", "Gonzalo", "Camila", "Joaquín", "Micaela"];
+const companerosTrabajo = ["Martín", "Sofía", "Federico", "Julia", "Maximiliano", "Florencia"];
+const companerosUniversidad = ["Tomás", "Agustina", "Santiago", "Valentina", "Lucas", "Martina"];
+const clubDeportivo = ["Diego", "Ariel", "Enzo", "Julián", "Franco", "Emiliano", "Lisandro"];
 const vecinos = ["Eduardo", "Teresa", "Oscar", "Beatriz", "Pablo", "Andrea"];
 
-const confirmados = [
-  "Carlos",
-  "María",
-  "Facundo",
-  "Tomás",
-  "Martín",
-  "Sofía",
-  "Diego",
-];
+const confirmados = ["Carlos", "María", "Facundo", "Tomás", "Martín", "Sofía", "Diego"];
 const cancelados = ["Raúl", "Silvia", "Gonzalo", "Oscar"];
-const sinResponder = [
-  "José",
-  "Ana",
-  "Hugo",
-  "Camila",
-  "Federico",
-  "Julia",
-  "Andrea",
-];
-const listaDeEspera = [
-  "Ezequiel",
-  "Rocío",
-  "Bautista",
-  "Julieta",
-  "Ignacio",
-  "Antonella",
-];
+const sinResponder = ["José", "Ana", "Hugo", "Camila", "Federico", "Julia", "Andrea"];
+const listaDeEspera = ["Ezequiel", "Rocío", "Bautista", "Julieta", "Ignacio", "Antonella"];
 
 const invitadosVIP = ["Mirtha", "Marcelo", "Susana", "Guillermo", "Valeria"];
 const vegetarianos = ["María", "Milagros", "Agustina", "Florencia", "Ignacio"];
