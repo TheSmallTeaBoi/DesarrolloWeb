@@ -1,0 +1,39 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Monitor LG UltraGear 24' 144Hz",
+            "precioBase": 320000,
+            "imagen": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80",
+            "descripcion": "Panel IPS de alta frecuencia con 1ms de respuesta (GtG) y tecnología AMD FreeSync Premium.",
+            "financiacion": { "cuotas": [3, 6, 12], "intereses": [15, 30, 65] }
+        },
+        {
+            "id": 2,
+            "nombre": "Teclado Redragon Kumara K552 RGB",
+            "precioBase": 85000,
+            "imagen": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&q=80",
+            "descripcion": "Teclado mecánico TKL con switches Blue/Red, retroiluminación RGB y estructura de acero reforzado.",
+            "financiacion": { "cuotas": [3, 6], "intereses": [12, 24] }
+        },
+        {
+            "id": 3,
+            "nombre": "Mouse Logitech G502 Hero 25K",
+            "precioBase": 42000,
+            "imagen": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&q=80",
+            "descripcion": "Sensor HERO de 25.600 DPI, 11 botones programables y sistema de pesas ajustable.",
+            "financiacion": null
+        },
+        {
+            "id": 4,
+            "nombre": "Auriculares HyperX Cloud II 7.1",
+            "precioBase": 98000,
+            "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+            "descripcion": "Sonido envolvente virtual 7.1, almohadillas de espuma viscoelástica y marco de aluminio duradero.",
+            "financiacion": {
+                "cuotas": [3, 6, 9, 12],
+                "intereses": [18, 35, 50, 70]
+            }
+        }
+    ]
+}
