@@ -6,7 +6,7 @@ import getNombres from "./act2.js";
 import agruparPorCiudad from "./act3.js";
 import promedioEdad from "./act4.js";
 
-app.get("/", (req, res) => {
+app.get("/", (_, res) => {
     res.send("Hello World!");
 });
 
