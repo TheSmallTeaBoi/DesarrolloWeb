@@ -15,9 +15,9 @@ function App() {
         timeout: 1000,
     });
 
-    async function fetchInfo(id, setter, selectedSetter, api) {
+    async function fetchInfo(id, setter, selectedSetter, apiname) {
         try {
-            const response = await api.get(`{api}/${id}`);
+            const response = await api.get(`${apiname}/${id}`);
             setter(response.data);
             selectedSetter(id);
         } catch (error) {
@@ -111,7 +111,7 @@ function App() {
                             {openTaller === taller.id && (
                                 <div className="card">
                                     <p className="tag">
-                                        {detallesTaller.duracion} meses
+                                        {detallesTaller.duracionMeses} meses
                                     </p>
                                     <p className="">
                                         Requisitos: {detallesTaller.requisitos}
