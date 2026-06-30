@@ -15,9 +15,9 @@ function App() {
         timeout: 1000,
     });
 
-    async function fetchInfo(id, setter, selectedSetter) {
+    async function fetchInfo(id, setter, selectedSetter, api) {
         try {
-            const response = await api.get(`libros/${id}`);
+            const response = await api.get(`{api}/${id}`);
             setter(response.data);
             selectedSetter(id);
         } catch (error) {
@@ -64,6 +64,7 @@ function App() {
                                         libro.id,
                                         setDetallesLibro,
                                         setOpenLibro,
+                                        "libros",
                                     )
                                 }
                             >
@@ -89,7 +90,7 @@ function App() {
 
             <h1 className="text-primary">Talleres</h1>
 
-            <div className="libros">
+            <div className="talleres">
                 {talleres.map((taller) => {
                     return (
                         <p key={taller.id} className="text-primary">
@@ -100,6 +101,7 @@ function App() {
                                         taller.id,
                                         setDetallesTaller,
                                         setOpenTaller,
+                                        "talleres",
                                     )
                                 }
                             >
